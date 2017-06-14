@@ -11,7 +11,7 @@ Send a number to server and receive a result from server
 # Command line
 First step
 
-~$ make
+~$ make clean ; make 
 
 Second step
 
@@ -21,6 +21,5 @@ From other terminal
 
 ~$ ./clientsocket 'num'
 
-#NOTE:
-
+# NOTE:
 The 'num' have to decimal.
