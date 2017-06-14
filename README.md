@@ -1,6 +1,9 @@
 # -Linux-C-sample-socket
 C Socket Programming for Linux with a Server and Client Example Code
 
+1.Use setsockopt() to solve timeout problem.
+
+2.Use signal() and waitpid() to solve zombie process beacuse of using fork().
 
 # Server:
 Calculates the number to the power of two by the client sent
