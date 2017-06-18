@@ -22,7 +22,7 @@ Second step
 
 From other terminal
 
-~$ ./clientsocket 'num'
+~$ ./clientsocket `'num'`
 
 # NOTE:
-The 'num' have to decimal.
+The `'num'` have to decimal.
