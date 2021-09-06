@@ -25,7 +25,9 @@ int main(int argc, char *argv[]){
     char *buffer = (char*) calloc(buffersize, sizeof(char)) ;
     read(sock, buffer, buffersize);
     printf("result form server: %s\n", buffer);
-   
+
+    free(message);
+    free(buffer);
     close(sock);
     return 0;
 }
