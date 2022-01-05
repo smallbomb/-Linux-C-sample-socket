@@ -42,7 +42,7 @@ int main(){
       // set recv and send timeout
       if( setsockopt (clnt_sock, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout)) < 0 )
         printf( "setsockopt fail\n" );
-      if( setsockopt (clnt_sock, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout)) < 0 )
+      if( setsockopt (clnt_sock, SOL_SOCKET, SO_SNDTIMEO, (char *)&timeout, sizeof(timeout)) < 0 )
         printf( "setsockopt fail\n" ) ;
       
       int pid = fork();
